@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新疆注册会计师全国统一考试网-注册会计师考试</title>
+    <link rel="stylesheet" href="../../images/style.css">
+    <link rel="stylesheet" href="../../images/index.css">
+    <script type="text/javascript" src="../../images/jquery.min.js"></script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<!--头部开始 -->
+<style>
+.jigoujieshao-content-left ul li,.ty-content-left ul li{overflow:hidden;}
+.chnlli br{display: none;}
+.yaowen-content-top p{text-align:center;margin-left: 0;}
+input{
+outline:medium;
+}
+</style>
+
+
+<div class="head">
+    <div class="logo">
+        <a href="../../index.html"><img src="../../images/logo.png" alt=""></a>
+    </div>
+    <div class="nav">
+        <div class="nav-main">
+            <ul>
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="../../jggk/index.html">机构概况</a></li>
+                <li><a href="../../xxfb/index.html">新闻报道</a></li>
+                <li><a href="../../ggfw/index.html">公众服务</a></li>
+                <li><a href="../../xxcx/index.html">信息查询</a></li>
+                <li><a href="../index.html">专题专栏</a></li>
+            </ul>
+            <div class="nav-language"><span><a href="../../introcicpa/index.html">EN</a></span>&nbsp;<span>/</span>&nbsp;<span><a href="../../index.html">中</a></span></div>
+            <div class="nav-search">
+                <input id="searchword">
+               <a href="javascript:void(0);"> <img src="../../images/search.png" alt="" onclick="search();"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+function search(){
+	var sword=$("#searchword").val();
+	if(sword==""||sword==null){
+	   alert("请输入关键字");
+	   return false;
+	}else if(hasIllegalChar(sword)){
+		alert("检索关键字中不能存在特殊字符!");
+		return false;
+	}else if(hasIllegalScriptChar(sword)){
+		alert("提示：您输入的信息含有非法脚本字符！");
+		return false;
+	}else{
+		window.open("/was5/web/search?channelid=226962&searchscope=doctitle&searchword="+sword);
+	}
+}
+//回车事件绑定
+$('#searchword').bind('keyup', function(event) {
+　　if (event.keyCode == "13") {
+　　　　//回车执行查询
+　　　　search();
+　　}
+});
+function hasIllegalChar(value){
+	reg=/[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im;
+	if(reg.test(value)){
+		return true;
+	}
+}
+
+/**
+ * [hasIllegalScriptChar 判断是否含有script非法字符]
+ * @param  {[type]}  str [要判断的字符串]
+ * @return {Boolean}     [true：含有，验证不通过；false:不含有，验证通过]
+ */
+function hasIllegalScriptChar(str) {
+	return new RegExp(".*?script[^>]*?.*?(<\/.*?script.*?>)*", "ig").test(str);
+}
+</script>
+<!--头部结束 -->
+
+
+
+<!--正文内容开始 -->
+<div class="content chnlli">
+    <div class="generalsurvey-content-location">
+        <div><span class="l2">你现在的位置：</span><a href="../../index.html" title="首页" class="CurrChnlCls">首页</a>><a href="../index.html" title="专题专栏" class="CurrChnlCls">专题专栏</a>><a href="javascript:;" title="注册会计师考试" class="CurrChnlCls">注册会计师考试</a></div>
+    </div>
+    <div class="jigoujieshao-content">
+        <div class="jigoujieshao-content-left">
+            <h3>注册会计师考试</h3>
+            <ul id="jgjsSwitch">
+                 
+                <li id="6644"><a href="javascript:;">CPA考试网上报名系统</a></li>
+                
+                <li id="3485"><a href="javascript:;">考试制度</a></li>
+                
+                <li id="3486"><a href="javascript:;">报名简章</a></li>
+                
+                <li id="3487"><a href="javascript:;">考试大纲</a></li>
+                
+                <li id="3488"><a href="javascript:;">考试问答</a></li>
+                
+                <li id="3489"><a href="javascript:;">涉外考试</a></li>
+                
+                <li id="3490"><a href="javascript:;">考试制度改革</a></li>
+                
+                <li id="3495"><a href="javascript:;">考试动态</a></li>
+                
+            </ul>
+        </div>
+        <div class="ldjg-content-right">
+                 
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg">
+                 <span>CPA考试网上报名系统</span>					
+                </div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="javascript:;" target="_blank" title='CPA考试网上报名系统'>
+<script>
+var title='CPA考试网上报名系统';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a></li>
+                    
+                </ul>
+            </div>
+            
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '考试制度</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./exam_system/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="exam_system/202009/t20200923_57249.html" target="_blank" title='关于2020年注册会计师全国统一考试计算机考试环境下故障处理办法的公告'>
+<script>
+var title='关于2020年注册会计师全国统一考试计算机考试环境下故障处理办法的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-09-23) </span></li>
+                    
+                    <li><a href="exam_system/201912/t20191220_57248.html" target="_blank" title='关于印发《注册会计师全国统一考试合格证管理办法》的通知'>
+<script>
+var title='关于印发《注册会计师全国统一考试合格证管理办法》的通知';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2019-12-20) </span></li>
+                    
+                    <li><a href="exam_system/201807/t20180726_57247.html" target="_blank" title='关于印发《注册会计师全国统一考试应考人员考场守则》的通知'>
+<script>
+var title='关于印发《注册会计师全国统一考试应考人员考场守则》的通知';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2018-07-26) </span></li>
+                    
+                    <li><a href="exam_system/201508/t20150810_57246.html" target="_blank" title='关于2015年度注册会计师全国统一考试计算机考试环境下故障处理办法的通告'>
+<script>
+var title='关于2015年度注册会计师全国统一考试计算机考试环境下故障处理办法的通告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2015-08-10) </span></li>
+                    
+                    <li><a href="exam_system/201408/t20140805_57245.html" target="_blank" title='关于2014年度注册会计师考试准考证下载打印的通告'>
+<script>
+var title='关于2014年度注册会计师考试准考证下载打印的通告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2014-08-05) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '报名简章</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./application_guide/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="application_guide/202102/t20210223_60527.html" target="_blank" title='2021年注册会计师全国统一考试报名简章'>
+<script>
+var title='2021年注册会计师全国统一考试报名简章';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-02-23) </span></li>
+                    
+                    <li><a href="application_guide/202102/t20210223_60526.html" target="_blank" title='2021年香港特别行政区、澳门特别行政区、台湾地区居民及外国人参加注册会计师全国统一考试报名简章'>
+<script>
+var title='2021年香港特别行政区、澳门特别行政区、台湾地区居民及外国人参加注册会计师全国统一考试报名简章';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-02-23) </span></li>
+                    
+                    <li><a href="application_guide/202003/t20200320_60525.html" target="_blank" title='2020年注册会计师全国统一考试报名简章'>
+<script>
+var title='2020年注册会计师全国统一考试报名简章';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-03-20) </span></li>
+                    
+                    <li><a href="application_guide/202003/t20200320_60524.html" target="_blank" title='2020年香港特别行政区、澳门特别行政区、台湾地区居民及外国人参加注册会计师全国统一考试报名简章'>
+<script>
+var title='2020年香港特别行政区、澳门特别行政区、台湾地区居民及外国人参加注册会计师全国统一考试报名简章';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-03-20) </span></li>
+                    
+                    <li><a href="application_guide/202003/t20200320_60523.html" target="_blank" title='2020年中华人民共和国注册会计师全国统一考试（欧洲考区）报名简章'>
+<script>
+var title='2020年中华人民共和国注册会计师全国统一考试（欧洲考区）报名简章';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-03-20) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '考试大纲</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./exam_outline/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="exam_outline/202102/t20210223_60546.html" target="_blank" title='财政部注册会计师考试委员会关于印发《2021年注册会计师全国统一考试大纲——专业阶段考试》和《2021年注册会计师全国统一考试大纲——综合阶段考试》的通知'>
+<script>
+var title='财政部注册会计师考试委员会关于印发《2021年注册会计师全国统一考试大纲——专业阶段考试》和《2021年注...';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-02-23) </span></li>
+                    
+                    <li><a href="exam_outline/202003/t20200320_60545.html" target="_blank" title='《2020年注册会计师全国统一考试大纲——专业阶段考试》和《2020年注册会计师全国统一考试大纲——综合阶段考试》印发'>
+<script>
+var title='《2020年注册会计师全国统一考试大纲——专业阶段考试》和《2020年注册会计师全国统一考试大纲——综合阶...';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-03-20) </span></li>
+                    
+                    <li><a href="exam_outline/201903/t20190319_60544.html" target="_blank" title='财政部注册会计师考试委员会关于印发《2019年注册会计师全国统一考试大纲——专业阶段考试》和《2019年注册会计师全国统一考试大纲——综合阶段考试》的通知'>
+<script>
+var title='财政部注册会计师考试委员会关于印发《2019年注册会计师全国统一考试大纲——专业阶段考试》和《2019年注...';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2019-03-19) </span></li>
+                    
+                    <li><a href="exam_outline/201803/t20180326_60543.html" target="_blank" title='注册会计师全国统一考试大纲（专业阶段及综合阶段考试）'>
+<script>
+var title='注册会计师全国统一考试大纲（专业阶段及综合阶段考试）';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2018-03-26) </span></li>
+                    
+                    <li><a href="exam_outline/201703/t20170323_60542.html" target="_blank" title='2017年注册会计师全国统一考试大纲'>
+<script>
+var title='2017年注册会计师全国统一考试大纲';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2017-03-23) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '考试问答</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./exam_QA/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="exam_QA/202102/t20210223_55908.html" target="_blank" title='中注协有关负责人就2021年注册会计师全国统一考试报名相关事项答记者问'>
+<script>
+var title='中注协有关负责人就2021年注册会计师全国统一考试报名相关事项答记者问';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-02-23) </span></li>
+                    
+                    <li><a href="exam_QA/202003/t20200320_19303.html" target="_blank" title='中注协负责人就2020年注册会计师全国统一考试报名相关事项答记者问'>
+<script>
+var title='中注协负责人就2020年注册会计师全国统一考试报名相关事项答记者问';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-03-20) </span></li>
+                    
+                    <li><a href="exam_QA/201903/t20190320_19302.html" target="_blank" title='中注协负责人就2019年注册会计师全国统一考试报名相关事项答记者问'>
+<script>
+var title='中注协负责人就2019年注册会计师全国统一考试报名相关事项答记者问';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2019-03-20) </span></li>
+                    
+                    <li><a href="exam_QA/201803/t20180326_19301.html" target="_blank" title='中注协负责人就2018年注册会计师全国统一考试报名相关事项答记者问'>
+<script>
+var title='中注协负责人就2018年注册会计师全国统一考试报名相关事项答记者问';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2018-03-26) </span></li>
+                    
+                    <li><a href="exam_QA/201408/t20140805_19300.html" target="_blank" title='关于2014年度注册会计师考试准考证下载打印的通告'>
+<script>
+var title='关于2014年度注册会计师考试准考证下载打印的通告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2014-08-05) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '涉外考试</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./exam_foreign/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="exam_foreign/201210/t20121022_19325.html" target="_blank" title='内地与香港注册会计师部分考试科目相互豁免流程'>
+<script>
+var title='内地与香港注册会计师部分考试科目相互豁免流程';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2012-10-22) </span></li>
+                    
+                    <li><a href="exam_foreign/201206/t20120614_19324.html" target="_blank" title='新疆注册会计师全国统一考试网 香港会计师公会关于2012年度中国注册会计师全国统一考试香港特别行政区考生报名机构变更的公告'>
+<script>
+var title='新疆注册会计师全国统一考试网 香港会计师公会关于2012年度中国注册会计师全国统一考试香港特别行政区考生报名机构变...';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2012-06-14) </span></li>
+                    
+                    <li><a href="exam_foreign/201011/t20101123_19323.html" target="_blank" title='2010年度中国注册会计师统一考试（欧洲考区）开考'>
+<script>
+var title='2010年度中国注册会计师统一考试（欧洲考区）开考';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2010-11-23) </span></li>
+                    
+                    <li><a href="exam_foreign/200911/t20091117_19322.html" target="_blank" title='2009年度中国注册会计师统一考试在欧洲开考'>
+<script>
+var title='2009年度中国注册会计师统一考试在欧洲开考';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2009-11-17) </span></li>
+                    
+                    <li><a href="exam_foreign/200910/t20091022_19321.html" target="_blank" title='2009年度注册会计师全国统一考试英语测试报名延期公告'>
+<script>
+var title='2009年度注册会计师全国统一考试英语测试报名延期公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2009-10-22) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '考试制度改革</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./kszdgg/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="kszdgg/201812/t20181210_19333.html" target="_blank" title='关于发布2018年注册会计师全国统一考试成绩的公告'>
+<script>
+var title='关于发布2018年注册会计师全国统一考试成绩的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2018-12-10) </span></li>
+                    
+                    <li><a href="kszdgg/201802/t20180202_19332.html" target="_blank" title='财政部注册会计师考试委员会办公室关于公布2017年注册会计师全国统一考试成绩复核结果的通告'>
+<script>
+var title='财政部注册会计师考试委员会办公室关于公布2017年注册会计师全国统一考试成绩复核结果的通告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2018-02-02) </span></li>
+                    
+                    <li><a href="kszdgg/200904/t20090403_19331.html" target="_blank" title='财政部注册会计师考试委员会办公室负责人就考生参加原考试制度下2009年度注册会计师全国统一考试答记者问'>
+<script>
+var title='财政部注册会计师考试委员会办公室负责人就考生参加原考试制度下2009年度注册会计师全国统一考试答记者问';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2009-04-03) </span></li>
+                    
+                    <li><a href="kszdgg/200903/t20090326_19330.html" target="_blank" title='新版《注册会计师全国统一考试办法》发布实施'>
+<script>
+var title='新版《注册会计师全国统一考试办法》发布实施';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2009-03-26) </span></li>
+                    
+                    <li><a href="kszdgg/200902/t20090219_19329.html" target="_blank" title='新疆注册会计师全国统一考试网关于印发《关于做好2009年度注册会计师全国统一考试工作有关问题的通知（征求意见稿）》的通知'>
+<script>
+var title='新疆注册会计师全国统一考试网关于印发《关于做好2009年度注册会计师全国统一考试工作有关问题的通知（征求意见稿）...';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2009-02-19) </span></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '考试动态</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./exam_info/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="exam_info/202103/t20210312_55913.html" target="_blank" title='2021年注册会计师全国统一考试用书提前发行'>
+<script>
+var title='2021年注册会计师全国统一考试用书提前发行';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-03-12) </span></li>
+                    
+                    <li><a href="exam_info/202102/t20210208_55912.html" target="_blank" title='关于公布2020年注册会计师全国统一考试成绩复核结果的公告'>
+<script>
+var title='关于公布2020年注册会计师全国统一考试成绩复核结果的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-02-08) </span></li>
+                    
+                    <li><a href="exam_info/202101/t20210114_55911.html" target="_blank" title='关于2020年注册会计师全国统一考试违规行为处理结果的公告'>
+<script>
+var title='关于2020年注册会计师全国统一考试违规行为处理结果的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2021-01-14) </span></li>
+                    
+                    <li><a href="exam_info/202012/t20201225_55910.html" target="_blank" title='关于2021年注册会计师全国统一考试报名时间和考试时间的公告'>
+<script>
+var title='关于2021年注册会计师全国统一考试报名时间和考试时间的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-12-25) </span></li>
+                    
+                    <li><a href="exam_info/202012/t20201221_55909.html" target="_blank" title='关于发布2020年注册会计师全国统一考试成绩的公告'>
+<script>
+var title='关于发布2020年注册会计师全国统一考试成绩的公告';
+title = title.replace(/<br>/g,"");
+document.write(title);
+</script>
+</a><span>(2020-12-21) </span></li>
+                    
+                </ul>
+            </div>
+            
+           
+        </div>
+        <div style="clear: both"></div>
+        <div class="menu-bg"></div>
+
+    </div>
+</div>
+
+<!--正文内容结束 -->
+
+
+
+<!--foot尾部 -->
+<div class="foot" style='position:relative;'>
+    <div><a>网站管理：中注协党委办公室（综合部）</a><a>技术支持：中注协信息技术部</a><a>电子邮箱：webmaster@cicpa.org.cn</a></div>
+    <div><a>地址：北京市海淀区西四环中路16号院2号楼</a><a>邮编：100039</a><a>电话：010-88250000</a></div>
+    <div><a>版权声明： 新疆注册会计师全国统一考试网</a><a href="javascript:;" target="_blank">京ICP备05032222-1号</a><a class="foot-zi"><img src="../../images/wh.png" alt="">京公网安备 11010802022122号</a></div>
+    <div style='position:absolute;right:70px;top:22px;'><script id="kXScript" type="text/javascript" src="https://kxlogo.knet.cn/seallogo.dll?sn=a12061311010024693307708&h=47"></script></div>
+</div>
+<script id="_trs_ta_js" src="../../c/js/ta-4830.js" async="async" defer="defer"></script>
+
+<script type="text/javascript">
+    $("#jgjsSwitch").find("li").children("a").click(function () {
+        console.log("测试");
+        $(this).parent().addClass("jgjs-active");
+        $(this).parent().siblings().removeClass("jgjs-active");
+    })
+function nav_style(obj) { 
+$("#" + obj).addClass("jgjs-active");
+ } 
+ nav_style(3091);
+</script>
+</body>
+</html>

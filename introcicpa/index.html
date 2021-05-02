@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THE CHINESE INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS</title>
+<meta http-equiv="x-ua-compatible" content="Edge">
+    <link rel="stylesheet" href="../images/style.css">
+    <script type="text/javascript" src="../images/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<style>
+.en-index-content-laws ul li{
+overflow:hidden;
+}
+.right-con1 ul li div .img1{position:relative;top:0;left:0;margin-left:40px;margin-top:15px;}
+.right-con1 ul li div .img2{position:relative;top:0;left:0;margin-left:30px;margin-top:20px;}
+.en-index-right-sub ul li .en-index-right-news{
+height:40px;
+overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.en-index-right-sub ul li a{    white-space: nowrap;}
+.en-index-content-laws ul li div{
+overflow: hidden;
+    text-overflow: ellipsis;
+}
+.en-index-content-laws ul li div a{ 
+white-space: nowrap;
+}
+.en-index-right-sub ul li a{font-size:18px;}
+.en-index-right-sub ul li a img,.en-index-content-laws ul li div img{top:11px;}
+.en-index-content-laws ul li div a{font-size:18px;}
+.en-index-right-sub h3{margin-bottom:12px;}
+.en-nav-main ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.en-generalsurvey-location div a {
+
+    font-size: 16px;
+
+}
+.en-xl-nav-right ul li a {
+    font-size: 14px;
+
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.j-lbt-point ul li , .j-lbt-point2 ul li{
+    margin-left: 3px;
+    float: left;
+    width: 11px;
+    height: 11px;
+    background: #ffffff;
+    border-radius: 50px;
+    list-style: none;
+    cursor:pointer;
+}   
+.j-lbt-point2{
+    z-index: 9999;
+}
+.j-lbt-point ul .on , .j-lbt-point2 ul .on{
+    background-color: #0080cc;
+}
+.j-lbt-point, .j-lbt-point2 {
+    position: absolute;
+    bottom: 10px;
+    left: 342px;
+}
+.more-btn, .more-btn1 {
+    position: absolute;
+    top: 195px;
+    z-index: 9999;
+    width: 527px;
+}
+.more-left, .more-left1 {
+    float: left;
+    margin-left: 20px;
+    width: 16px;
+    cursor: pointer;
+}
+.more-right, .more-right1 {
+    float: right;
+    margin-right: -222px;
+    width: 16px;
+    cursor: pointer;
+}
+.right-con1{
+        display: table-cell;  
+        vertical-align:middle;
+        height:67px;
+}
+.right-con1 img{vertical-align:middle; }
+</style>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<!--头部开始 -->
+
+<div class="en-head">
+    <div class="en-logo">
+        <a href=""><img src="../images/en-logo.png" alt=""></a>
+        <div class="en-nav-search">
+            <div class="en-language"><span><a href="">EN</a></span>&nbsp;<span>/</span>&nbsp;<span><a href="../index.html">中</a></span></div>
+            <input id="searchword">
+            <a javascript:void(0);"=""> <img class="en-saerch" src="../images/en-search.png" alt="" onclick="search();"></a>
+        </div>
+    </div>
+    <div class="en-nav">
+        <div class="en-nav-main">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="javascript:;">NEWS</a></li>
+                <li><a href="javascript:;">LAWS，REGULATIONS AND GUIDELINES</a></li>
+                <li><a href="javascript:;">BECOMING A CPA</a></li>
+                <li><a href="javascript:;">ABOUT CICPA</a></li>
+                <li><a href="javascript:;">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+function search(){
+	var sword=$("#searchword").val();
+	if(sword==""||sword==null){
+	   alert("请输入关键字");
+	   return false;
+	}else if(hasIllegalChar(sword)){
+		alert("检索关键字中不能存在特殊字符!");
+		return false;
+	}else if(hasIllegalScriptChar(sword)){
+		alert("提示：您输入的信息含有非法脚本字符！");
+		return false;
+	}else{
+		window.open("/was5/web/search?channelid=212310&searchword="+sword);
+	}
+}
+//回车事件绑定
+$('#searchword').bind('keyup', function(event) {
+　　if (event.keyCode == "13") {
+　　　　//回车执行查询
+　　　　search();
+　　}
+});
+
+function hasIllegalChar(value){
+	reg=/[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im;
+	if(reg.test(value)){
+		return true;
+	}
+}
+
+/**
+ * [hasIllegalScriptChar 判断是否含有script非法字符]
+ * @param  {[type]}  str [要判断的字符串]
+ * @return {Boolean}     [true：含有，验证不通过；false:不含有，验证通过]
+ */
+function hasIllegalScriptChar(str) {
+	return new RegExp(".*?script[^>]*?.*?(<\/.*?script.*?>)*", "ig").test(str);
+}
+</script>
+<!--头部结束-->
+
+<!--正文开始-->
+<div class="en-index-content">
+    <div class="en-index-content-left" style="height: 400px;">
+        
+        <div class="j-lbt">
+                
+                <div class="j-lbt-tp">
+                    <ul id="j-lbt-tp">
+                        
+                        <li><a href='../BNIE/202001/t20200119_17488.html' title='Dr. Zhao Mingji, President of CICPA Met Delegates from IFRS Foundation(2020-01-19)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/202001/W020210115610678101090.jpg'><div class="j-lbt-w">Dr. Zhao Mingji, President of CICPA Met Delegates from IFRS Foundation</div></a></li>
+                        
+                        <li><a href='../BNIE/202001/t20200119_17487.html' title='Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Moore Global(2020-01-19)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/202001/W020210115610917543466.jpg'><div class="j-lbt-w">Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Moore Global</div></a></li>
+                        
+                        <li><a href='../BNIE/201911/t20191128_17486.html' title='Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Baker Tilly International(2019-11-28)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/201911/W020210115610809525159.png'><div class="j-lbt-w">Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Baker Tilly Int...</div></a></li>
+                        
+                        <li><a href='../BNIE/201910/t20191012_17484.html' title='Mr. Liang Liqun, Deputy Secretary General of CICPA Met Delegates from AICPA│CIMA(2019-10-12)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/201910/W020210115611061383830.jpg'><div class="j-lbt-w">Mr. Liang Liqun, Deputy Secretary General of CICPA Met Delegates from AICPA│...</div></a></li>
+                        
+                        <li><a href='../BNIE/201907/t20190712_17483.html' title='Dr. Shu Huihao, Secretary General of CICPA Met Delegates from ACCA(2019-07-12)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/201907/W020201130133458127700.jpg'><div class="j-lbt-w">Dr. Shu Huihao, Secretary General of CICPA Met Delegates from ACCA</div></a></li>
+                        
+                        <li><a href='../BNIE/201812/t20181211_17449.html' title='Mr. Ted Verkade, CEO of Baker tilly International, Visits CICPA(2018-12-11)' target="_blank"><img style="width:769px;height:400px" src='../BNIE/201812/W020201130133377429116.jpg'><div class="j-lbt-w">Mr. Ted Verkade, CEO of Baker tilly International, Visits CICPA</div></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="j-lbt-point">
+               <ul id="j-lbt-point">
+                   
+                      <li class="on"></li>
+                      <li></li><li></li><li></li><li></li><li></li>
+                   
+               </ul>
+            </div>
+            <div class="more-btn">
+                <img class="more-left" src="../images/more-left.png">
+                <img class="more-right" src="../images/more-right.png">
+            </div>
+            </div>
+        <div class="en-index-content-laws">
+            <h3><span>LAWS，REGULATIONS AND GUIDELINES</span><a href="javascript:;">MORE > ></a></h3>
+            <ul id="laws-1">
+                
+                <li><div><a href="laws/201806/t20180622_55722.html" target="_blank"><img src="../images/en-list-point.png" alt="">CPA Law</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55723.html" target="_blank"><img src="../images/en-list-point.png" alt="">Strategies, Plans and Policies</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55724.html" target="_blank"><img src="../images/en-list-point.png" alt="">Examination</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55725.html" target="_blank"><img src="../images/en-list-point.png" alt="">Registration</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55726.html" target="_blank"><img src="../images/en-list-point.png" alt="">CPD</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55727.html" target="_blank"><img src="../images/en-list-point.png" alt="">Quality Assurance</a></div></li>
+                
+                <li><div><a href="laws/201806/t20180622_55728.html" target="_blank"><img src="../images/en-list-point.png" alt="">Accounting  Firms  Development</a></div></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="en-index-content-right">
+        <div class="en-index-right-sub">
+            <h3><span>NEWS</span><a href="javascript:;">MORE > ></a></h3>
+            <ul>
+                
+                                <li><a href="../BNIE/202003/t20200331_17491.html" target="_blank"><img src="../images/en-list-point.png" alt="">COVID 19 Column Be Online on CICPA Website</a></li>
+                               
+                                <li><a href="../BNIE/202003/t20200331_17490.html" target="_blank"><img src="../images/en-list-point.png" alt="">Half of Membership Dues Be Slashed</a></li>
+                               
+                                <li><a href="../BNIE/202003/t20200331_17489.html" target="_blank"><img src="../images/en-list-point.png" alt="">Fourth Plenary of Sixth Council of CICPA Be Held</a></li>
+                               
+                                <li><a href="../BNIE/202001/t20200119_17488.html" target="_blank"><img src="../images/en-list-point.png" alt="">Dr. Zhao Mingji, President of CICPA Met Delegates from IFRS Foundation</a></li>
+                               
+                                <li><a href="../BNIE/202001/t20200119_17487.html" target="_blank"><img src="../images/en-list-point.png" alt="">Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Moore Global</a></li>
+                               
+                                <li><a href="../BNIE/201911/t20191128_17486.html" target="_blank"><img src="../images/en-list-point.png" alt="">Dr. Shu Huihao, Secretary General of CICPA Met Delegates from Baker Tilly International</a></li>
+                               
+            </ul>
+        </div>
+        <div class="en-index-right-sub right-con">
+            <h3><span>BECOMING A CPA</span><a href="javascript:;">MORE > ></a></h3>
+            <ul>
+                
+                                <li><a href="becoming/202101/t20210118_55729.html" target="_blank"><img src="../images/en-list-point.png" alt="">Examination</a></li>
+                               
+                                <li><a href="becoming/202101/t20210118_55730.html" target="_blank"><img src="../images/en-list-point.png" alt="">Registration</a></li>
+                               
+            </ul>
+        </div>
+        <div class="en-index-right-sub right-con">
+            <h3><span>ABOUT CICPA</span><a href="javascript:;">MORE > ></a></h3>
+            <ul>
+                
+                                <li><a href="about/201407/t20140708_55731.html" target="_blank"><img src="../images/en-list-point.png" alt="">Introduction to The Chinese Institute of Certified Public Accountants</a></li>
+                
+                
+                                <li><a href="about/201806/t20180622_55734.html" target="_blank"><img src="../images/en-list-point.png" alt="">Overview of the Accountancy Profession of China</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="en-index-right-sub right-con1">
+            <h3><span>QUICK LINK</span></h3>
+            <ul>
+                <li><div><a href="javascript:;" target="_blank"><img class="img1" src="../images/en-link-ifac.png" alt=""></a></div></li>
+                <li><div><a href="javascript:;" target="_blank"><img class="img2" src="../images/en-link-capa.png" alt=""></a></div></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--正文结束-->
+
+
+
+
+
+
+<!--尾部开始-->
+<div class="en-foot">
+    <div class="en-foot-01" style="width:690px"><a>Address:  Building B, No. 16, Xisihuanzhonglu, Haidian District, Beijing, P. R. China,</a></div>
+    <div class="en-foot-02" style="width:425px"><a>Postal Code: 100039</a><a>Tel: 86-10-88250000</a></div>
+    <div class="en-foot-03" style="width:460px"><a>Fax:86-10-88250099</a><a>Email: intl@cicpa.org.cn</a></div>
+</div>
+<script id="_trs_ta_js" src="../c/js/ta-4830.js" async="async" defer="defer"></script>
+<!--尾部结束-->
+<script type="text/javascript">
+    //轮播图
+    var pc3lbtUl = "#j-lbt-tp"; //绑定轮播图UL
+    var pc3lbtUlPoint = "#j-lbt-point"; //绑定轮播图小圆点UL
+    var pc3lbtPrev = ".more-left";//绑定的上一页
+    var pc3lbtNext = ".more-right";//绑定的下一页
+    var pc3lbtLiNum = 6; //绑定轮播图数量
+    var pc3lbtCurrent = 0;
+    $(pc3lbtUl).children("li").eq(0).nextAll("li").css("display","none");
+    $(pc3lbtUlPoint).children("li").click(function () {
+        pc3lbtCurrent = $(this).index();
+        pc3lbt();
+    });
+    $(pc3lbtPrev).click(function () {
+        if (pc3lbtCurrent <= 0){
+            pc3lbtCurrent = pc3lbtLiNum-1;
+        }else {
+            pc3lbtCurrent--;
+        }
+        pc3lbt();
+    });
+    $(pc3lbtNext).click(function () {
+        if (pc3lbtCurrent >= pc3lbtLiNum-1){
+            pc3lbtCurrent = 0;
+        }else {
+            pc3lbtCurrent++;
+        }
+        pc3lbt();
+    });
+
+    setInterval(function () {
+        if (pc3lbtCurrent<pc3lbtLiNum){
+            pc3lbt();
+            pc3lbtCurrent++;
+        } else {
+            pc3lbtCurrent = 0;
+        }
+    },3000);
+
+    // 轮播图通用函数
+    function pc3lbt() {
+        $(pc3lbtUl).find("li").css("display","none");
+        $(pc3lbtUl).children("li").eq(pc3lbtCurrent).fadeIn();
+        $(pc3lbtUlPoint).children("li").removeClass("on");
+        $(pc3lbtUlPoint).children("li").eq(pc3lbtCurrent).addClass("on");
+    }
+
+</script>
+<script>
+var num;
+var liLength=$("#laws-1").find("li").length;
+num=liLength/2;
+for(var i=1;i<=num;i++){
+    console.log()
+    if (i%2==0){
+
+    }else{
+        $("#laws-1").children().eq(i*2-1).children("div").addClass("laws-a")
+        $("#laws-1").children().eq(i*2-2).children("div").addClass("laws-a")
+    }
+}
+</script>
+
+</body>
+</html>

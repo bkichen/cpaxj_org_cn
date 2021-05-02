@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新疆注册会计师全国统一考试网-信息查询</title>
+    <link rel="stylesheet" href="../images/style.css">
+    <link rel="stylesheet" href="../images/index.css">
+    <script type="text/javascript" src="../images/jquery.min.js"></script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<!--头部开始 -->
+<style>
+.jigoujieshao-content-left ul li,.ty-content-left ul li{overflow:hidden;}
+.chnlli br{display: none;}
+.yaowen-content-top p{text-align:center;margin-left: 0;}
+input{
+outline:medium;
+}
+</style>
+
+
+<div class="head">
+    <div class="logo">
+        <a href="../index.html"><img src="../images/logo.png" alt=""></a>
+    </div>
+    <div class="nav">
+        <div class="nav-main">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../jggk/index.html">机构概况</a></li>
+                <li><a href="../xxfb/index.html">新闻报道</a></li>
+                <li><a href="../ggfw/index.html">公众服务</a></li>
+                <li><a href="">信息查询</a></li>
+                <li><a href="../ztzl1/index.html">专题专栏</a></li>
+            </ul>
+            <div class="nav-language"><span><a href="../introcicpa/index.html">EN</a></span>&nbsp;<span>/</span>&nbsp;<span><a href="../index.html">中</a></span></div>
+            <div class="nav-search">
+                <input id="searchword">
+               <a href="javascript:void(0);"> <img src="../images/search.png" alt="" onclick="search();"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+function search(){
+	var sword=$("#searchword").val();
+	if(sword==""||sword==null){
+	   alert("请输入关键字");
+	   return false;
+	}else if(hasIllegalChar(sword)){
+		alert("检索关键字中不能存在特殊字符!");
+		return false;
+	}else if(hasIllegalScriptChar(sword)){
+		alert("提示：您输入的信息含有非法脚本字符！");
+		return false;
+	}else{
+		window.open("/was5/web/search?channelid=226962&searchscope=doctitle&searchword="+sword);
+	}
+}
+//回车事件绑定
+$('#searchword').bind('keyup', function(event) {
+　　if (event.keyCode == "13") {
+　　　　//回车执行查询
+　　　　search();
+　　}
+});
+function hasIllegalChar(value){
+	reg=/[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im;
+	if(reg.test(value)){
+		return true;
+	}
+}
+
+/**
+ * [hasIllegalScriptChar 判断是否含有script非法字符]
+ * @param  {[type]}  str [要判断的字符串]
+ * @return {Boolean}     [true：含有，验证不通过；false:不含有，验证通过]
+ */
+function hasIllegalScriptChar(str) {
+	return new RegExp(".*?script[^>]*?.*?(<\/.*?script.*?>)*", "ig").test(str);
+}
+</script>
+<!--头部结束 -->
+
+
+
+<!--正文内容开始 -->
+<div class="content chnlli">
+    <div class="generalsurvey-content-location">
+        <div><span class="l2">你现在的位置：</span><a href="../index.html" title="首页" class="CurrChnlCls">首页</a>><a href="" title="信息查询" class="CurrChnlCls">信息查询</a></div>
+    </div>
+    <div class="jigoujieshao-content">
+        <div class="jigoujieshao-content-left">
+            <h3>信息查询</h3>
+            <ul id="jgjsSwitch">
+                <li id="3104"><a href="javascript:;">行业管理信息系统</a></li>
+                <li id="3748"><a href="javascript:;">事务所综合评价排名</a></li>
+                <li id="3542"><a href="javascript:;">年报审计快报</a></li>
+                <li id="3543"><a href="javascript:;">执业质量检查通告</a></li>
+                <li id="6283"><a href="javascript:;">行业发展研究资料</a></li>
+                <li id="3693"><a href="javascript:;">行业规划参考资料</a></li>
+                <li id="3687"><a href="javascript:;">行业信息化参考资料</a></li>
+                <li id="6693"><a href="cwxx/index.html">财务信息</a></li>
+
+            </ul>
+        </div>
+        <div class="ldjg-content-right">
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '行业管理信息系统</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '';
+						if(type != ''){
+							document.write('<a href="./hyglxxxt/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="javascript:;" target="_blank" title="行业管理信息系统">行业管理信息系统</a><span>&nbsp;&nbsp;(2021-01-08) </span></li>
+                    
+                    <li><a href="javascript:;" target="_blank" title="财务报表子系统">财务报表子系统</a><span>&nbsp;&nbsp;(2021-01-08) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '事务所综合评价排名</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="../ztzl1/swszhpm/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../ztzl1/swszhpm/201805/t20180530_39663.html" target="_blank" title="中注协发布《2017年度业务收入前100家会计师事务所信息》">中注协发布《2017年度业务收入前100家会计师事务所信息》</a><span>&nbsp;&nbsp;(2018-05-30) </span></li>
+                    
+                    <li><a href="../ztzl1/swszhpm/201805/t20180530_39662.html" target="_blank" title="中注协秘书长陈毓圭就2017年度业务收入前百家会计师事务所信息答记者问">中注协秘书长陈毓圭就2017年度业务收入前百家会计师事务所信息答记者问</a><span>&nbsp;&nbsp;(2018-05-30) </span></li>
+                    
+                    <li><a href="../ztzl1/swszhpm/201805/t20180530_39661.html" target="_blank" title="中注协关于发布《2017年度业务收入前100家会计师事务所信息》的通告">中注协关于发布《2017年度业务收入前100家会计师事务所信息》的通告</a><span>&nbsp;&nbsp;(2018-05-30) </span></li>
+                    
+                    <li><a href="../ztzl1/swszhpm/201803/t20180319_39660.html" target="_blank" title="关于开展2018年会计师事务所综合评价工作的通知">关于开展2018年会计师事务所综合评价工作的通知</a><span>&nbsp;&nbsp;(2018-03-19) </span></li>
+                    
+                    <li><a href="../ztzl1/swszhpm/201701/t20170112_39659.html" target="_blank" title="中注协公布2016年会计师事务所综合评价前百家信息">中注协公布2016年会计师事务所综合评价前百家信息</a><span>&nbsp;&nbsp;(2017-01-12) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '年报审计快报</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./annual_audit/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../xxfb/news/202104/t20210429_61743.html" target="_blank" title="中注协发布上市公司2020年年报审计情况快报（第九期）">中注协发布上市公司2020年年报审计情况快报（第九期）</a><span>&nbsp;&nbsp;(2021-04-29) </span></li>
+                    
+                    <li><a href="../xxfb/news/202104/t20210422_61515.html" target="_blank" title="中注协发布上市公司2020年年报审计情况快报（第八期）">中注协发布上市公司2020年年报审计情况快报（第八期）</a><span>&nbsp;&nbsp;(2021-04-22) </span></li>
+                    
+                    <li><a href="../xxfb/news/202104/t20210416_56094.html" target="_blank" title="中注协发布上市公司2020年年报审计情况快报（第七期）">中注协发布上市公司2020年年报审计情况快报（第七期）</a><span>&nbsp;&nbsp;(2021-04-16) </span></li>
+                    
+                    <li><a href="../xxfb/news/202104/t20210408_56084.html" target="_blank" title="中注协发布上市公司2020年年报审计情况快报（第六期）">中注协发布上市公司2020年年报审计情况快报（第六期）</a><span>&nbsp;&nbsp;(2021-04-08) </span></li>
+                    
+                    <li><a href="../xxfb/news/202104/t20210401_56079.html" target="_blank" title="中注协发布上市公司2020年年报审计情况快报（第五期）">中注协发布上市公司2020年年报审计情况快报（第五期）</a><span>&nbsp;&nbsp;(2021-04-01) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '执业质量检查通告</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="./kjsswszyzljc/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="kjsswszyzljc/202006/t20200618_23730.html" target="_blank" title="新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第二十号）">新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第二十号）</a><span>&nbsp;&nbsp;(2020-06-18) </span></li>
+                    
+                    <li><a href="kjsswszyzljc/201903/t20190321_23729.html" target="_blank" title="新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十九号）">新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十九号）</a><span>&nbsp;&nbsp;(2019-03-21) </span></li>
+                    
+                    <li><a href="kjsswszyzljc/201901/t20190107_23728.html" target="_blank" title="新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十八号）">新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十八号）</a><span>&nbsp;&nbsp;(2019-01-07) </span></li>
+                    
+                    <li><a href="kjsswszyzljc/201804/t20180420_23727.html" target="_blank" title="新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十七号）">新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十七号）</a><span>&nbsp;&nbsp;(2018-04-20) </span></li>
+                    
+                    <li><a href="kjsswszyzljc/201801/t20180123_23726.html" target="_blank" title="新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十六号）">新疆注册会计师全国统一考试网会计师事务所执业质量检查通告（第十六号）</a><span>&nbsp;&nbsp;(2018-01-23) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '行业发展研究资料</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="../ztzl1/hyfzyjzl/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../ztzl1/hyfzyjzl/201906/t20190620_59945.html" target="_blank" title="中小会计师事务所如何在变局中创造未来——行业发展研究资料（No.2019－2）">中小会计师事务所如何在变局中创造未来——行业发展研究资料（No.2019－2）</a><span>&nbsp;&nbsp;(2019-06-20) </span></li>
+                    
+                    <li><a href="../ztzl1/hyfzyjzl/201903/t20190305_59944.html" target="_blank" title="基于企业国际化发展的会计师事务所 服务企业“走出去”策略研究——行业发展研究资料（No.2019－1）">基于企业国际化发展的会计师事务所 服务企业“走出去”策略研究——行业发展研究资...</a><span>&nbsp;&nbsp;(2019-03-05) </span></li>
+                    
+                    <li><a href="../ztzl1/hyfzyjzl/201812/t20181229_59943.html" target="_blank" title="打造一个面向未来的职业——分享知识、观点和经验——行业发展研究资料（No.2018－4）">打造一个面向未来的职业——分享知识、观点和经验——行业发展研究资料（No.2018－4）</a><span>&nbsp;&nbsp;(2018-12-29) </span></li>
+                    
+                    <li><a href="../ztzl1/hyfzyjzl/201810/t20181010_59942.html" target="_blank" title="上市公司2017年年报审计情况分析报告——行业发展研究资料（No.2018－3）">上市公司2017年年报审计情况分析报告——行业发展研究资料（No.2018－3）</a><span>&nbsp;&nbsp;(2018-10-10) </span></li>
+                    
+                    <li><a href="../ztzl1/hyfzyjzl/201808/t20180801_59941.html" target="_blank" title="2017年中国会计服务贸易发展报告——行业发展研究资料（No.2018－2）">2017年中国会计服务贸易发展报告——行业发展研究资料（No.2018－2）</a><span>&nbsp;&nbsp;(2018-08-01) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '行业规划参考资料</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="../ztzl1/hyghckzl2/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../ztzl1/hyghckzl2/hyghckzl1/202103/t20210313_56894.html" target="_blank" title="中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要">中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要</a><span>&nbsp;&nbsp;(2021-03-13) </span></li>
+                    
+                    <li><a href="../ztzl1/hyghckzl2/hyghckzl5/202011/t20201113_56922.html" target="_blank" title="习近平主持中央全面深化改革委员会会议">习近平主持中央全面深化改革委员会会议</a><span>&nbsp;&nbsp;(2020-11-13) </span></li>
+                    
+                    <li><a href="../ztzl1/hyghckzl2/hyghckzl1/202011/t20201113_56893.html" target="_blank" title="习近平：关于《中共中央关于制定国民经济和社会发展第十四个五年规划和二〇三五年远景目标的建议》的说明">习近平：关于《中共中央关于制定国民经济和社会发展第十四个五年规划和二〇三五年...</a><span>&nbsp;&nbsp;(2020-11-13) </span></li>
+                    
+                    <li><a href="../ztzl1/hyghckzl2/hyghckzl1/202011/t20201113_56892.html" target="_blank" title="中共中央关于制定国民经济和社会发展第十四个五年规划和二〇三五年远景目标的建议">中共中央关于制定国民经济和社会发展第十四个五年规划和二〇三五年远景目标的建议</a><span>&nbsp;&nbsp;(2020-11-13) </span></li>
+                    
+                    <li><a href="../ztzl1/hyghckzl2/hyghckzl5/202010/t20201020_56921.html" target="_blank" title="IMF：预计2020年全球经济将萎缩4.4%">IMF：预计2020年全球经济将萎缩4.4%</a><span>&nbsp;&nbsp;(2020-10-20) </span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '行业信息化参考资料</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '20';
+						if(type != ''){
+							document.write('<a href="../ztzl1/hyxxhckzl/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../ztzl1/hyxxhckzl/202009/t20200916_33295.html" target="_blank" title="德勤全球RPA调研解读：为什么自动化预期收益难以实现？">德勤全球RPA调研解读：为什么自动化预期收益难以实现？</a><span>&nbsp;&nbsp;(2020-09-16) </span></li>
+                    
+                    <li><a href="../ztzl1/hyxxhckzl/202009/t20200916_33294.html" target="_blank" title="What Defines the Accountant of Tomorrow？">What Defines the Accountant of Tomorrow？</a><span>&nbsp;&nbsp;(2020-09-16) </span></li>
+                    
+                    <li><a href="../ztzl1/hyxxhckzl/202009/t20200916_33293.html" target="_blank" title="SMP Pacesetters Embracing Technology">SMP Pacesetters Embracing Technology</a><span>&nbsp;&nbsp;(2020-09-16) </span></li>
+                    
+                    <li><a href="../ztzl1/hyxxhckzl/202009/t20200916_33292.html" target="_blank" title="Thriving in the era of pervasive AI">Thriving in the era of pervasive AI</a><span>&nbsp;&nbsp;(2020-09-16) </span></li>
+                    
+                    <li><a href="../ztzl1/hyxxhckzl/202009/t20200916_33291.html" target="_blank" title="Why CPAs should care about RPA">Why CPAs should care about RPA</a><span>&nbsp;&nbsp;(2020-09-16) </span></li>
+                    
+                </ul>
+            </div>
+           <div class="ldjg-content-list">
+                <div class="ldjg-content-bg"><span>
+					<script>
+						var chnl = '财务信息</span>';
+						chnl = chnl.replace("<br>","<br>");
+						document.write(chnl); 
+						var type = '';
+						if(type != ''){
+							document.write('<a href="./cwxx/">更多>></a>');
+						}
+					</script>
+				</span></div>
+                <ul class="j-list-inline ldjg-ul">
+                    
+                    <li><a href="../xxfb/tzgg/202104/t20210427_61741.html" target="_blank" title="新疆注册会计师全国统一考试网2021年单位预算">新疆注册会计师全国统一考试网2021年单位预算</a><span>&nbsp;&nbsp;(2021-04-27) </span></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <div class="menu-bg"></div>
+
+    </div>
+</div>
+
+<!--正文内容结束 -->
+
+
+
+<!--foot尾部 -->
+<div class="foot" style='position:relative;'>
+    <div><a>网站管理：中注协党委办公室（综合部）</a><a>技术支持：中注协信息技术部</a><a>电子邮箱：webmaster@cicpa.org.cn</a></div>
+    <div><a>地址：北京市海淀区西四环中路16号院2号楼</a><a>邮编：100039</a><a>电话：010-88250000</a></div>
+    <div><a>版权声明： 新疆注册会计师全国统一考试网</a><a href="javascript:;" target="_blank">京ICP备05032222-1号</a><a class="foot-zi"><img src="../images/wh.png" alt="">京公网安备 11010802022122号</a></div>
+    <div style='position:absolute;right:70px;top:22px;'><script id="kXScript" type="text/javascript" src="https://kxlogo.knet.cn/seallogo.dll?sn=a12061311010024693307708&h=47"></script></div>
+</div>
+<script id="_trs_ta_js" src="../c/js/ta-4830.js" async="async" defer="defer"></script>
+
+<script type="text/javascript">
+    $("#jgjsSwitch").find("li").children("a").click(function () {
+        $(this).parent().addClass("jgjs-active");
+        $(this).parent().siblings().removeClass("jgjs-active");
+    })
+function nav_style(obj) { 
+$("#" + obj).addClass("jgjs-active");
+ } 
+ nav_style(6308);
+</script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THE CHINESE INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS</title>
+    <link rel="stylesheet" href="../../../images/style.css">
+    <script type="text/javascript" src="../../../images/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<script type="text/javascript">
+        function SetFont(size){
+ var divBody=document.getElementById("news_content");
+ if(!divBody){return;}
+ divBody.style.fontSize=size+"px";
+ var divChildBody=divBody.childNodes;
+ if(divChildBody){
+  findchild(divBody,size);
+ }
+}
+
+function setfontSize(childc,size){
+if(childc){
+ for(var i=0;i<childc.length;i++){
+  if(childc[i].nodeType==1){
+   childc[i].style.fontSize = size + "px";
+  }
+ }
+}
+}
+
+function findchild(parent,size){
+ var child = parent.childNodes;
+ setfontSize(child,size);
+ if(child){
+ for(var i = 0; i< child.length;i++){
+  var cc = child[i].childNodes;
+  if(!cc){
+  }else{findchild(child[i],size);}
+ }
+}
+}  
+
+
+        
+</script>
+<style>
+.en-xl-nav-right ul{    display: flex;    justify-content: center;}
+.en-xl-nav-right{float:none;}
+.print{    background: url(../../../images/en-print.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;}
+.mail{    background: url(../../../images/en-mail.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;}
+.fontSize{    background: url(../../../images/en-text.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: bottom;}
+</style>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<!--头部开始 -->
+
+<div class="en-head">
+    <div class="en-logo">
+        <a href="../../index.html"><img src="../../../images/en-logo.png" alt=""></a>
+        <div class="en-nav-search">
+            <div class="en-language"><span><a href="../../index.html">EN</a></span>&nbsp;<span>/</span>&nbsp;<span><a href="../../../index.html">中</a></span></div>
+          <input id="searchword">
+            <a javascript:void(0);"=""><img class="en-saerch" src="../../../images/en-search.png" alt="" onclick="search();"></a>
+        </div>
+    </div>
+    <style>
+.en-nav-main ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.en-generalsurvey-location div a {
+
+    font-size: 16px;
+
+}
+.en-xl-nav-right ul li a {
+    font-size: 14px;
+
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<div class="en-nav">
+        <div class="en-nav-main">
+            <ul>
+
+
+<li><a href="../../index.html">HOME</a></li>
+                <li><a href="javascript:;">NEWS</a></li>
+                <li><a href="javascript:;">LAWS，REGULATIONS AND GUIDELINES</a></li>
+                <li><a href="javascript:;">BECOMING A CPA</a></li>
+                <li><a href="javascript:;">ABOUT CICPA</a></li>
+                <li><a href="javascript:;">CONTACT US</a></li>
+
+            </ul>
+        </div>
+</div>
+</div>
+<script>
+function search(){
+  var sword=$("#searchword").val();
+  if(sword==""||sword==null){
+     alert("请输入关键字");
+     return false;
+  }else if(hasIllegalChar(sword)){
+    alert("检索关键字中不能存在特殊字符!");
+    return false;
+  }else if(hasIllegalScriptChar(sword)){
+    alert("提示：您输入的信息含有非法脚本字符！");
+    return false;
+  }else{
+    window.open("/was5/web/search?channelid=212310&searchword="+sword);
+  }
+}
+//回车事件绑定
+$('#searchword').bind('keyup', function(event) {
+　　if (event.keyCode == "13") {
+　　　　//回车执行查询
+　　　　search();
+　　}
+});
+
+function hasIllegalChar(value){
+  reg=/[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im;
+  if(reg.test(value)){
+    return true;
+  }
+}
+
+/**
+ * [hasIllegalScriptChar 判断是否含有script非法字符]
+ * @param  {[type]}  str [要判断的字符串]
+ * @return {Boolean}     [true：含有，验证不通过；false:不含有，验证通过]
+ */
+function hasIllegalScriptChar(str) {
+  return new RegExp(".*?script[^>]*?.*?(<\/.*?script.*?>)*", "ig").test(str);
+}
+</script>
+<!--头部结束-->
+
+<!--正文开始-->
+<div class="location">
+    <div class="en-index-content">
+        <div class="en-generalsurvey-location">
+            <div><a href="../../index.html">HOME</a>&nbsp;<span>></span><a href="javascript:;" title="Laws，Regulations and Guideline" class="CurrChnlCls">Laws，Regulations and Guideline</a></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="en-index-content">
+    <div class="en-xl-sub">
+        <h3>Examination</h3>
+        <div class="en-xl-nav">
+            <div class="en-xl-nav-left">
+                <ul>
+                   <!-- <li></li>
+                    <li>Updated:06-22-2018</li> -->
+                </ul>
+            </div>
+            <div class="en-xl-nav-right">
+                <ul>
+                    <li style="border-left:0"><a></a></li>
+                    <!--<li style="border-left:0"><a>Updated:06-22-2018</a></li>-->
+                    <li style="border-left:0"><a>Updated:
+                      Jun 21,2018
+                      </a></li>
+                    <li class="print"><a style="    cursor: pointer;" onclick="dayin()">Print</a></li>
+                    <li class="mail"><a href="mailto:收件人邮箱?subject=test&cc=抄送人邮箱&subject=主题&body=内容">Mail</a></li>
+                    <li class="fontSize"><a href="javascript:SetFont(20)"> Large</a><a href="javascript:SetFont(16)">Medium</a><a href="javascript:SetFont(12)">Small</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="en-xl-content" id="news_content">
+            <div id='TRS_AUTOADD_1529652566931'><style id="_Custom_Style_">
+
+#TRS_AUTOADD_1529652566931 {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 0px; FONT-FAMILY: Cambria,宋体; MARGIN-BOTTOM: 0px; FONT-SIZE: 12pt
+}
+#TRS_AUTOADD_1529652566931 P {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 0px; FONT-FAMILY: Cambria,宋体; MARGIN-BOTTOM: 0px; FONT-SIZE: 12pt
+}
+#TRS_AUTOADD_1529652566931 TD {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 0px; FONT-FAMILY: Cambria,宋体; MARGIN-BOTTOM: 0px; FONT-SIZE: 12pt
+}
+#TRS_AUTOADD_1529652566931 DIV {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 0px; FONT-FAMILY: Cambria,宋体; MARGIN-BOTTOM: 0px; FONT-SIZE: 12pt
+}
+#TRS_AUTOADD_1529652566931 LI {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 0px; FONT-FAMILY: Cambria,宋体; MARGIN-BOTTOM: 0px; FONT-SIZE: 12pt
+}
+/**---JSON--
+{"":{"line-height":"1.5","font-family":"Cambria,宋体","font-size":"12pt","margin-top":"0","margin-bottom":"0"},"p":{"line-height":"1.5","font-family":"Cambria,宋体","font-size":"12pt","margin-top":"0","margin-bottom":"0"},"td":{"line-height":"1.5","font-family":"Cambria,宋体","font-size":"12pt","margin-top":"0","margin-bottom":"0"},"div":{"line-height":"1.5","font-family":"Cambria,宋体","font-size":"12pt","margin-top":"0","margin-bottom":"0"},"li":{"line-height":"1.5","font-family":"Cambria,宋体","font-size":"12pt","margin-top":"0","margin-bottom":"0"}}
+--**/</style>
+<p>&nbsp;&nbsp;</p>
+<p><a href="javascript:;" oldsrc="W020210118383018163797.pdf">Measures of National Uniform CPA Examination</a></p>
+<p>&nbsp; &nbsp;</p>
+<p><a href="javascript:;" oldsrc="W020210118383018187877.pdf">Measures of National Uniform CPA Examination for Residents of Hong Kong S.A.R., Macao S.A.R., Taiwan and Foreigners</a></p>
+</div>
+        </div>
+    </div>
+</div>
+<!--正文结束-->
+
+
+
+
+
+
+<!--尾部开始-->
+<div class="en-foot">
+    <div class="en-foot-01" style="width:690px"><a>Address:  Building B, No. 16, Xisihuanzhonglu, Haidian District, Beijing, P. R. China,</a></div>
+    <div class="en-foot-02" style="width:425px"><a>Postal Code: 100039</a><a>Tel: 86-10-88250000</a></div>
+    <div class="en-foot-03" style="width:460px"><a>Fax:86-10-88250099</a><a>Email: intl@cicpa.org.cn</a></div>
+</div>
+<script id="_trs_ta_js" src="../../../c/js/ta-4830.js" async="async" defer="defer"></script>
+<!--尾部结束-->
+<script>
+    function dayin()
+
+    {
+
+        window.print();
+
+    }
+
+</script>
+
+</body>
+</html>
